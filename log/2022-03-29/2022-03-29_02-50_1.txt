@@ -1,0 +1,6 @@
+2022-03-29 02:50:00 [pool-2-thread-1] [processBus] [61] INFO  by.javacource.task3.entity.BusStop - Bus stop 7 finished processing by bus 1
+2022-03-29 02:50:00 [pool-2-thread-1] [run] [68] INFO  by.javacource.task3.entity.Bus - Bus 1 drove away from a bus stop 7 with 9 people
+2022-03-29 02:50:00 [pool-2-thread-1] [run] [73] INFO  by.javacource.task3.entity.Bus - Bus 1 completed its route
+2022-03-29 02:50:00 [pool-2-thread-3] [processBus] [61] INFO  by.javacource.task3.entity.BusStop - Bus stop 6 finished processing by bus 3
+2022-03-29 02:50:00 [pool-2-thread-3] [run] [68] INFO  by.javacource.task3.entity.Bus - Bus 3 drove away from a bus stop 6 with 43 people
+2022-03-29 02:50:00 [pool-2-thread-3] [run] [73] INFO  by.javacource.task3.entity.Bus - Bus 3 completed its route

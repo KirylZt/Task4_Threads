@@ -1,0 +1,101 @@
+2022-03-29 02:53:15 [pool-2-thread-1] [run] [55] INFO  by.javacource.task3.entity.Bus - Bus 1 started its route
+2022-03-29 02:53:15 [pool-2-thread-3] [run] [55] INFO  by.javacource.task3.entity.Bus - Bus 3 started its route
+2022-03-29 02:53:15 [pool-2-thread-2] [run] [55] INFO  by.javacource.task3.entity.Bus - Bus 2 started its route
+2022-03-29 02:53:15 [pool-2-thread-2] [run] [62] INFO  by.javacource.task3.entity.Bus - Bus 2 arrived to a bus stop 3 with 27 people
+2022-03-29 02:53:15 [pool-2-thread-1] [run] [62] INFO  by.javacource.task3.entity.Bus - Bus 1 arrived to a bus stop 3 with 20 people
+2022-03-29 02:53:15 [pool-2-thread-3] [run] [62] INFO  by.javacource.task3.entity.Bus - Bus 3 arrived to a bus stop 1 with 9 people
+2022-03-29 02:53:15 [pool-2-thread-3] [processBus] [45] INFO  by.javacource.task3.entity.BusStop - Bus stop 1 is processing by bus 3
+2022-03-29 02:53:15 [pool-2-thread-2] [processBus] [45] INFO  by.javacource.task3.entity.BusStop - Bus stop 3 is processing by bus 2
+2022-03-29 02:53:15 [pool-2-thread-1] [processBus] [45] INFO  by.javacource.task3.entity.BusStop - Bus stop 3 is processing by bus 1
+2022-03-29 02:53:15 [pool-2-thread-1] [getPeopleOffBus] [98] INFO  by.javacource.task3.entity.Route - 2 people got off the bus 1
+2022-03-29 02:53:15 [pool-2-thread-2] [getPeopleOffBus] [98] INFO  by.javacource.task3.entity.Route - 7 people got off the bus 2
+2022-03-29 02:53:15 [pool-2-thread-3] [getPeopleOffBus] [98] INFO  by.javacource.task3.entity.Route - 2 people got off the bus 3
+2022-03-29 02:53:15 [pool-2-thread-1] [getPeopleOnBus] [107] INFO  by.javacource.task3.entity.Route - 15 people got on the bus 1
+2022-03-29 02:53:15 [pool-2-thread-3] [getPeopleOnBus] [107] INFO  by.javacource.task3.entity.Route - 19 people got on the bus 3
+2022-03-29 02:53:15 [pool-2-thread-2] [getPeopleOnBus] [107] INFO  by.javacource.task3.entity.Route - 1 people got on the bus 2
+2022-03-29 02:53:16 [pool-2-thread-2] [processBus] [61] INFO  by.javacource.task3.entity.BusStop - Bus stop 3 finished processing by bus 2
+2022-03-29 02:53:16 [pool-2-thread-2] [run] [68] INFO  by.javacource.task3.entity.Bus - Bus 2 drove away from a bus stop 3 with 21 people
+2022-03-29 02:53:17 [pool-2-thread-1] [processBus] [61] INFO  by.javacource.task3.entity.BusStop - Bus stop 3 finished processing by bus 1
+2022-03-29 02:53:17 [pool-2-thread-1] [run] [68] INFO  by.javacource.task3.entity.Bus - Bus 1 drove away from a bus stop 3 with 33 people
+2022-03-29 02:53:17 [pool-2-thread-1] [run] [62] INFO  by.javacource.task3.entity.Bus - Bus 1 arrived to a bus stop 6 with 33 people
+2022-03-29 02:53:17 [pool-2-thread-1] [processBus] [45] INFO  by.javacource.task3.entity.BusStop - Bus stop 6 is processing by bus 1
+2022-03-29 02:53:17 [pool-2-thread-1] [getPeopleOffBus] [98] INFO  by.javacource.task3.entity.Route - 13 people got off the bus 1
+2022-03-29 02:53:17 [pool-2-thread-1] [getPeopleOnBus] [107] INFO  by.javacource.task3.entity.Route - 5 people got on the bus 1
+2022-03-29 02:53:19 [pool-2-thread-1] [processBus] [61] INFO  by.javacource.task3.entity.BusStop - Bus stop 6 finished processing by bus 1
+2022-03-29 02:53:19 [pool-2-thread-1] [run] [68] INFO  by.javacource.task3.entity.Bus - Bus 1 drove away from a bus stop 6 with 25 people
+2022-03-29 02:53:19 [pool-2-thread-1] [run] [62] INFO  by.javacource.task3.entity.Bus - Bus 1 arrived to a bus stop 2 with 25 people
+2022-03-29 02:53:19 [pool-2-thread-1] [processBus] [45] INFO  by.javacource.task3.entity.BusStop - Bus stop 2 is processing by bus 1
+2022-03-29 02:53:19 [pool-2-thread-1] [getPeopleOffBus] [98] INFO  by.javacource.task3.entity.Route - 22 people got off the bus 1
+2022-03-29 02:53:19 [pool-2-thread-1] [getPeopleOnBus] [107] INFO  by.javacource.task3.entity.Route - 3 people got on the bus 1
+2022-03-29 02:53:20 [pool-2-thread-3] [processBus] [61] INFO  by.javacource.task3.entity.BusStop - Bus stop 1 finished processing by bus 3
+2022-03-29 02:53:20 [pool-2-thread-3] [run] [68] INFO  by.javacource.task3.entity.Bus - Bus 3 drove away from a bus stop 1 with 26 people
+2022-03-29 02:53:20 [pool-2-thread-3] [run] [62] INFO  by.javacource.task3.entity.Bus - Bus 3 arrived to a bus stop 7 with 26 people
+2022-03-29 02:53:20 [pool-2-thread-3] [processBus] [45] INFO  by.javacource.task3.entity.BusStop - Bus stop 7 is processing by bus 3
+2022-03-29 02:53:20 [pool-2-thread-3] [getPeopleOffBus] [98] INFO  by.javacource.task3.entity.Route - 19 people got off the bus 3
+2022-03-29 02:53:20 [pool-2-thread-3] [getPeopleOnBus] [107] INFO  by.javacource.task3.entity.Route - 9 people got on the bus 3
+2022-03-29 02:53:24 [pool-2-thread-1] [processBus] [61] INFO  by.javacource.task3.entity.BusStop - Bus stop 2 finished processing by bus 1
+2022-03-29 02:53:24 [pool-2-thread-1] [run] [68] INFO  by.javacource.task3.entity.Bus - Bus 1 drove away from a bus stop 2 with 6 people
+2022-03-29 02:53:24 [pool-2-thread-1] [run] [62] INFO  by.javacource.task3.entity.Bus - Bus 1 arrived to a bus stop 5 with 6 people
+2022-03-29 02:53:24 [pool-2-thread-1] [processBus] [45] INFO  by.javacource.task3.entity.BusStop - Bus stop 5 is processing by bus 1
+2022-03-29 02:53:24 [pool-2-thread-1] [getPeopleOffBus] [98] INFO  by.javacource.task3.entity.Route - 5 people got off the bus 1
+2022-03-29 02:53:24 [pool-2-thread-1] [getPeopleOnBus] [107] INFO  by.javacource.task3.entity.Route - 0 people got on the bus 1
+2022-03-29 02:53:26 [pool-2-thread-1] [processBus] [61] INFO  by.javacource.task3.entity.BusStop - Bus stop 5 finished processing by bus 1
+2022-03-29 02:53:26 [pool-2-thread-1] [run] [68] INFO  by.javacource.task3.entity.Bus - Bus 1 drove away from a bus stop 5 with 1 people
+2022-03-29 02:53:26 [pool-2-thread-1] [run] [62] INFO  by.javacource.task3.entity.Bus - Bus 1 arrived to a bus stop 1 with 1 people
+2022-03-29 02:53:26 [pool-2-thread-1] [processBus] [45] INFO  by.javacource.task3.entity.BusStop - Bus stop 1 is processing by bus 1
+2022-03-29 02:53:26 [pool-2-thread-1] [getPeopleOffBus] [98] INFO  by.javacource.task3.entity.Route - 1 people got off the bus 1
+2022-03-29 02:53:26 [pool-2-thread-1] [getPeopleOnBus] [107] INFO  by.javacource.task3.entity.Route - 0 people got on the bus 1
+2022-03-29 02:53:29 [pool-2-thread-3] [processBus] [61] INFO  by.javacource.task3.entity.BusStop - Bus stop 7 finished processing by bus 3
+2022-03-29 02:53:29 [pool-2-thread-3] [run] [68] INFO  by.javacource.task3.entity.Bus - Bus 3 drove away from a bus stop 7 with 16 people
+2022-03-29 02:53:29 [pool-2-thread-3] [run] [62] INFO  by.javacource.task3.entity.Bus - Bus 3 arrived to a bus stop 5 with 16 people
+2022-03-29 02:53:29 [pool-2-thread-3] [processBus] [45] INFO  by.javacource.task3.entity.BusStop - Bus stop 5 is processing by bus 3
+2022-03-29 02:53:29 [pool-2-thread-3] [getPeopleOffBus] [98] INFO  by.javacource.task3.entity.Route - 1 people got off the bus 3
+2022-03-29 02:53:29 [pool-2-thread-3] [getPeopleOnBus] [107] INFO  by.javacource.task3.entity.Route - 11 people got on the bus 3
+2022-03-29 02:53:30 [pool-2-thread-1] [processBus] [61] INFO  by.javacource.task3.entity.BusStop - Bus stop 1 finished processing by bus 1
+2022-03-29 02:53:30 [pool-2-thread-1] [run] [68] INFO  by.javacource.task3.entity.Bus - Bus 1 drove away from a bus stop 1 with 0 people
+2022-03-29 02:53:30 [pool-2-thread-1] [run] [62] INFO  by.javacource.task3.entity.Bus - Bus 1 arrived to a bus stop 4 with 0 people
+2022-03-29 02:53:30 [pool-2-thread-1] [processBus] [45] INFO  by.javacource.task3.entity.BusStop - Bus stop 4 is processing by bus 1
+2022-03-29 02:53:30 [pool-2-thread-1] [getPeopleOffBus] [98] INFO  by.javacource.task3.entity.Route - 0 people got off the bus 1
+2022-03-29 02:53:30 [pool-2-thread-1] [getPeopleOnBus] [107] INFO  by.javacource.task3.entity.Route - 0 people got on the bus 1
+2022-03-29 02:53:34 [pool-2-thread-3] [processBus] [61] INFO  by.javacource.task3.entity.BusStop - Bus stop 5 finished processing by bus 3
+2022-03-29 02:53:34 [pool-2-thread-3] [run] [68] INFO  by.javacource.task3.entity.Bus - Bus 3 drove away from a bus stop 5 with 26 people
+2022-03-29 02:53:34 [pool-2-thread-3] [run] [62] INFO  by.javacource.task3.entity.Bus - Bus 3 arrived to a bus stop 4 with 26 people
+2022-03-29 02:53:34 [pool-2-thread-3] [processBus] [45] INFO  by.javacource.task3.entity.BusStop - Bus stop 4 is processing by bus 3
+2022-03-29 02:53:34 [pool-2-thread-3] [getPeopleOffBus] [98] INFO  by.javacource.task3.entity.Route - 15 people got off the bus 3
+2022-03-29 02:53:34 [pool-2-thread-3] [getPeopleOnBus] [107] INFO  by.javacource.task3.entity.Route - 0 people got on the bus 3
+2022-03-29 02:53:38 [pool-2-thread-1] [run] [55] INFO  by.javacource.task3.entity.Bus - Bus 1 started its route
+2022-03-29 02:53:38 [pool-2-thread-2] [run] [55] INFO  by.javacource.task3.entity.Bus - Bus 2 started its route
+2022-03-29 02:53:38 [pool-2-thread-1] [run] [62] INFO  by.javacource.task3.entity.Bus - Bus 1 arrived to a bus stop 3 with 20 people
+2022-03-29 02:53:38 [pool-2-thread-2] [run] [62] INFO  by.javacource.task3.entity.Bus - Bus 2 arrived to a bus stop 3 with 27 people
+2022-03-29 02:53:38 [pool-2-thread-1] [processBus] [45] INFO  by.javacource.task3.entity.BusStop - Bus stop 3 is processing by bus 1
+2022-03-29 02:53:38 [pool-2-thread-2] [processBus] [45] INFO  by.javacource.task3.entity.BusStop - Bus stop 3 is processing by bus 2
+2022-03-29 02:53:38 [pool-2-thread-1] [getPeopleOffBus] [98] INFO  by.javacource.task3.entity.Route - 3 people got off the bus 1
+2022-03-29 02:53:38 [pool-2-thread-2] [getPeopleOffBus] [98] INFO  by.javacource.task3.entity.Route - 11 people got off the bus 2
+2022-03-29 02:53:38 [pool-2-thread-1] [getPeopleOnBus] [107] INFO  by.javacource.task3.entity.Route - 17 people got on the bus 1
+2022-03-29 02:53:38 [pool-2-thread-2] [getPeopleOnBus] [107] INFO  by.javacource.task3.entity.Route - 3 people got on the bus 2
+2022-03-29 02:53:43 [pool-2-thread-2] [processBus] [61] INFO  by.javacource.task3.entity.BusStop - Bus stop 3 finished processing by bus 2
+2022-03-29 02:53:43 [pool-2-thread-1] [processBus] [61] INFO  by.javacource.task3.entity.BusStop - Bus stop 3 finished processing by bus 1
+2022-03-29 02:53:43 [pool-2-thread-2] [run] [68] INFO  by.javacource.task3.entity.Bus - Bus 2 drove away from a bus stop 3 with 19 people
+2022-03-29 02:53:43 [pool-2-thread-1] [run] [68] INFO  by.javacource.task3.entity.Bus - Bus 1 drove away from a bus stop 3 with 34 people
+2022-03-29 02:53:43 [pool-2-thread-1] [run] [62] INFO  by.javacource.task3.entity.Bus - Bus 1 arrived to a bus stop 6 with 34 people
+2022-03-29 02:53:43 [pool-2-thread-1] [processBus] [45] INFO  by.javacource.task3.entity.BusStop - Bus stop 6 is processing by bus 1
+2022-03-29 02:53:43 [pool-2-thread-1] [getPeopleOffBus] [98] INFO  by.javacource.task3.entity.Route - 32 people got off the bus 1
+2022-03-29 02:53:43 [pool-2-thread-1] [getPeopleOnBus] [107] INFO  by.javacource.task3.entity.Route - 15 people got on the bus 1
+2022-03-29 02:53:45 [pool-2-thread-1] [processBus] [61] INFO  by.javacource.task3.entity.BusStop - Bus stop 6 finished processing by bus 1
+2022-03-29 02:53:45 [pool-2-thread-1] [run] [68] INFO  by.javacource.task3.entity.Bus - Bus 1 drove away from a bus stop 6 with 17 people
+2022-03-29 02:53:45 [pool-2-thread-1] [run] [62] INFO  by.javacource.task3.entity.Bus - Bus 1 arrived to a bus stop 2 with 17 people
+2022-03-29 02:53:45 [pool-2-thread-1] [processBus] [45] INFO  by.javacource.task3.entity.BusStop - Bus stop 2 is processing by bus 1
+2022-03-29 02:53:45 [pool-2-thread-1] [getPeopleOffBus] [98] INFO  by.javacource.task3.entity.Route - 3 people got off the bus 1
+2022-03-29 02:53:45 [pool-2-thread-1] [getPeopleOnBus] [107] INFO  by.javacource.task3.entity.Route - 6 people got on the bus 1
+2022-03-29 02:53:49 [pool-2-thread-1] [processBus] [61] INFO  by.javacource.task3.entity.BusStop - Bus stop 2 finished processing by bus 1
+2022-03-29 02:53:49 [pool-2-thread-1] [run] [68] INFO  by.javacource.task3.entity.Bus - Bus 1 drove away from a bus stop 2 with 20 people
+2022-03-29 02:53:49 [pool-2-thread-1] [run] [62] INFO  by.javacource.task3.entity.Bus - Bus 1 arrived to a bus stop 5 with 20 people
+2022-03-29 02:53:49 [pool-2-thread-1] [processBus] [45] INFO  by.javacource.task3.entity.BusStop - Bus stop 5 is processing by bus 1
+2022-03-29 02:53:49 [pool-2-thread-1] [getPeopleOffBus] [98] INFO  by.javacource.task3.entity.Route - 11 people got off the bus 1
+2022-03-29 02:53:49 [pool-2-thread-1] [getPeopleOnBus] [107] INFO  by.javacource.task3.entity.Route - 22 people got on the bus 1
+2022-03-29 02:53:55 [pool-2-thread-1] [processBus] [61] INFO  by.javacource.task3.entity.BusStop - Bus stop 5 finished processing by bus 1
+2022-03-29 02:53:55 [pool-2-thread-1] [run] [68] INFO  by.javacource.task3.entity.Bus - Bus 1 drove away from a bus stop 5 with 31 people
+2022-03-29 02:53:55 [pool-2-thread-1] [run] [62] INFO  by.javacource.task3.entity.Bus - Bus 1 arrived to a bus stop 1 with 31 people
+2022-03-29 02:53:55 [pool-2-thread-1] [processBus] [45] INFO  by.javacource.task3.entity.BusStop - Bus stop 1 is processing by bus 1
+2022-03-29 02:53:55 [pool-2-thread-1] [getPeopleOffBus] [98] INFO  by.javacource.task3.entity.Route - 5 people got off the bus 1
+2022-03-29 02:53:55 [pool-2-thread-1] [getPeopleOnBus] [107] INFO  by.javacource.task3.entity.Route - 8 people got on the bus 1
